@@ -391,6 +391,12 @@ async function fsCommand(req) {
   }
 }
 
+const PUBLIC_PREFIXES = ["/_app/immutable/", "/frogs/", "/solana/", "/icons/", "/logos/", "/sounds/", "/robinhood/"];
+function isPublicAsset(pathname) {
+  if (pathname === "/favicon.png" || pathname === "/robots.txt") return true;
+  return PUBLIC_PREFIXES.some((p) => pathname.startsWith(p));
+}
+
 /* ---------------- login page ---------------- */
 function loginPage(error) {
   return new Response(`<!doctype html><html><head><meta charset="utf-8"><title>NS Terminal</title>
@@ -403,7 +409,7 @@ button{width:100%;padding:.7rem;margin-top:.8rem;background:#f5d67b;color:#111;b
 ${error ? '<p class="err">Credenciais inválidas</p>' : ""}
 <input name="user" placeholder="Utilizador" autocomplete="username" required>
 <input name="pass" type="password" placeholder="Password" autocomplete="current-password" required>
-<button type="submit">Entrar</button></form></body></html>`, { headers: { "content-type": "text/html; charset=utf-8" } });
+<button type="submit">Entrar</button></form></body></html>`, { headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-store" } });
 }
 
 /* ---------------- server ---------------- */
@@ -431,6 +437,18 @@ const server = serve({
     }
     if (url.pathname === "/api/health") {
       return Response.json({ ok: true, sidecars: Object.fromEntries(states) });
+    }
+
+    // Content-addressed assets are served without auth: they hold no secrets, and an
+    // auth-gated 200 HTML response must never be cacheable under an asset URL.
+    if (isPublicAsset(url.pathname)) {
+      const asset = Bun.file(WEB_ROOT + url.pathname);
+      if (await asset.exists()) {
+        return new Response(asset, {
+          headers: { "cache-control": "public, max-age=31536000, immutable" },
+        });
+      }
+      return new Response("not found", { status: 404, headers: { "cache-control": "no-store" } });
     }
 
     if (!authed(req)) {
