@@ -1,0 +1,7 @@
+bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)
+bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)
+bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)
+bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)
+[bridge:stream] Error: WebSocket connection to 'ws://localhost:9501/?token=local-test-token' failed: Failed to connect
+[bridge:tasks] Error: WebSocket connection to 'ws://localhost:9502/?token=local-test-token' failed: Failed to connect
+[bridge:tasks] Error: WebSocket connection to 'ws://localhost:9502/?token=local-test-token' failed: Failed to connect

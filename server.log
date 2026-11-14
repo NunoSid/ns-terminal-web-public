@@ -1,0 +1,773 @@
+NS Terminal web on :8899
+[sidecar:db] pid=10920
+Starting sidecar: db
+PID: 10920
+Starting db sidecar on port 9500...
+Database path: C:\Users\nsilv\AppData\Local\Temp\opencode\froglabs\sidedata2\db\froglabs-terminal.db
+Running stage: migrations
+Running stage: seeding
+Running stage: cleanup
+[Cleanup] license: Reset data
+[Cleanup] license: Reset data
+Running stage: backfill-metrics
+Triplit server started on port 6543
+Triplit console service token: eyJhbGciOiJIUzI1NiJ9.eyJ4LXRyaXBsaXQtdG9rZW4tdHlwZSI6InNlY3JldCIsImlhdCI6MTc5NDY5OTA1Mn0.6AxSkCZCYhRACaOrp1cwWdXQAdu_A6mq9EeYa5Cno5I
+[apikeys_v0] Initializing repository
+[apikeys_v0] Initializing collection
+[apimcpconfiguration_v0] Initializing repository
+[apimcpconfiguration_v0] Initializing collection
+[appstate_v0] Initializing repository
+[appstate_v0] Initializing collection
+[journalentries_v0] Initializing repository
+[journalentries_v0] Initializing collection
+[xsettings_v0] Initializing repository
+[xsettings_v0] Initializing collection
+[license_v1] Initializing repository
+[license_v1] Initializing collection
+[blueprints_v4] Initializing repository
+[blueprints_v4] Initializing collection
+[feecollection_v1] Initializing repository
+[feecollection_v1] Initializing collection
+[launches_v2] Initializing repository
+[launches_v2] Initializing collection
+[lookuptable_v5] Initializing repository
+[lookuptable_v5] Initializing collection
+[presets_v4] Initializing repository
+[presets_v4] Initializing collection
+[settings_v6] Initializing repository
+[settings_v6] Initializing collection
+[tasks_v4] Initializing repository
+[tasks_v4] Initializing collection
+[tokens_v4] Initializing repository
+[tokens_v4] Initializing collection
+[wallets_v1] Initializing repository
+[wallets_v1] Initializing collection
+[walletgroups_v1] Initializing repository
+[walletgroups_v1] Initializing collection
+[walletpositions_v1] Initializing repository
+[walletpositions_v1] Initializing collection
+[vanities_v1] Initializing repository
+[vanities_v1] Initializing collection
+[metricsbuckets_v0] Initializing repository
+[metricsbuckets_v0] Initializing collection
+[metricsevents_v0] Initializing repository
+[metricsevents_v0] Initializing collection
+[robinhood_blueprints_v2] Initializing repository
+[robinhood_blueprints_v2] Initializing collection
+[robinhood_feecollection_v1] Initializing repository
+[robinhood_feecollection_v1] Initializing collection
+[robinhood_launches_v1] Initializing repository
+[robinhood_launches_v1] Initializing collection
+[robinhood_license_v0] Initializing repository
+[robinhood_license_v0] Initializing collection
+[robinhood_metricsbuckets_v0] Initializing repository
+[robinhood_metricsbuckets_v0] Initializing collection
+[robinhood_metricsevents_v0] Initializing repository
+[robinhood_metricsevents_v0] Initializing collection
+[robinhood_presets_v2] Initializing repository
+[robinhood_presets_v2] Initializing collection
+[robinhood_settings_v4] Initializing repository
+[robinhood_settings_v4] Initializing collection
+[robinhood_tasks_v3] Initializing repository
+[robinhood_tasks_v3] Initializing collection
+[robinhood_tokens_v2] Initializing repository
+[robinhood_tokens_v2] Initializing collection
+[robinhood_walletgroups_v0] Initializing repository
+[robinhood_walletgroups_v0] Initializing collection
+[robinhood_walletpositions_v0] Initializing repository
+[robinhood_walletpositions_v0] Initializing collection
+[robinhood_wallets_v1] Initializing repository
+[robinhood_wallets_v1] Initializing collection
+[TriplitAdapter:apikeys_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:journalentries_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:blueprints_v4] Initial fetch: 0 item(s)
+[TriplitAdapter:launches_v2] Initial fetch: 0 item(s)
+[TriplitAdapter:tasks_v4] Initial fetch: 0 item(s)
+[TriplitAdapter:tokens_v4] Initial fetch: 0 item(s)
+[TriplitAdapter:wallets_v1] Initial fetch: 0 item(s)
+[TriplitAdapter:walletgroups_v1] Initial fetch: 0 item(s)
+[TriplitAdapter:walletpositions_v1] Initial fetch: 0 item(s)
+[TriplitAdapter:vanities_v1] Initial fetch: 0 item(s)
+[TriplitAdapter:metricsbuckets_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:metricsevents_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_blueprints_v2] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_launches_v1] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_metricsbuckets_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_metricsevents_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_tasks_v3] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_tokens_v2] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_walletgroups_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_walletpositions_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_wallets_v1] Initial fetch: 0 item(s)
+[TriplitAdapter:apimcpconfiguration_v0] Initial fetch: 1 item(s)
+[TriplitAdapter:appstate_v0] Initial fetch: 1 item(s)
+[TriplitAdapter:xsettings_v0] Initial fetch: 1 item(s)
+[TriplitAdapter:license_v1] Initial fetch: 1 item(s)
+[TriplitAdapter:feecollection_v1] Initial fetch: 1 item(s)
+[TriplitAdapter:lookuptable_v5] Initial fetch: 1 item(s)
+[TriplitAdapter:presets_v4] Initial fetch: 1 item(s)
+[TriplitAdapter:settings_v6] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_feecollection_v1] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_license_v0] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_presets_v2] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_settings_v4] Initial fetch: 1 item(s)
+[TriplitAdapter:apikeys_v0] Update received: 0 items
+[TriplitAdapter:journalentries_v0] Update received: 0 items
+[TriplitAdapter:blueprints_v4] Update received: 0 items
+[TriplitAdapter:launches_v2] Update received: 0 items
+[TriplitAdapter:tasks_v4] Update received: 0 items
+[TriplitAdapter:tokens_v4] Update received: 0 items
+[TriplitAdapter:wallets_v1] Update received: 0 items
+[TriplitAdapter:walletgroups_v1] Update received: 0 items
+[TriplitAdapter:walletpositions_v1] Update received: 0 items
+[TriplitAdapter:vanities_v1] Update received: 0 items
+[TriplitAdapter:metricsbuckets_v0] Update received: 0 items
+[TriplitAdapter:metricsevents_v0] Update received: 0 items
+[TriplitAdapter:robinhood_blueprints_v2] Update received: 0 items
+[TriplitAdapter:robinhood_launches_v1] Update received: 0 items
+[TriplitAdapter:robinhood_metricsbuckets_v0] Update received: 0 items
+[TriplitAdapter:robinhood_metricsevents_v0] Update received: 0 items
+[TriplitAdapter:robinhood_tasks_v3] Update received: 0 items
+[TriplitAdapter:robinhood_tokens_v2] Update received: 0 items
+[TriplitAdapter:robinhood_walletgroups_v0] Update received: 0 items
+[TriplitAdapter:robinhood_walletpositions_v0] Update received: 0 items
+[TriplitAdapter:robinhood_wallets_v1] Update received: 0 items
+[TriplitAdapter:apimcpconfiguration_v0] Update received: 1 items
+[TriplitAdapter:appstate_v0] Update received: 1 items
+[TriplitAdapter:xsettings_v0] Update received: 1 items
+[TriplitAdapter:license_v1] Update received: 1 items
+[TriplitAdapter:feecollection_v1] Update received: 1 items
+[TriplitAdapter:lookuptable_v5] Update received: 1 items
+[TriplitAdapter:presets_v4] Update received: 1 items
+[TriplitAdapter:settings_v6] Update received: 1 items
+[TriplitAdapter:robinhood_feecollection_v1] Update received: 1 items
+[TriplitAdapter:robinhood_license_v0] Update received: 1 items
+[TriplitAdapter:robinhood_presets_v2] Update received: 1 items
+[TriplitAdapter:robinhood_settings_v4] Update received: 1 items
+[apikeys_v0] Collection is ready
+[journalentries_v0] Collection is ready
+[blueprints_v4] Collection is ready
+[launches_v2] Collection is ready
+[tasks_v4] Collection is ready
+[tokens_v4] Collection is ready
+[wallets_v1] Collection is ready
+[walletgroups_v1] Collection is ready
+[walletpositions_v1] Collection is ready
+[vanities_v1] Collection is ready
+[metricsbuckets_v0] Collection is ready
+[metricsevents_v0] Collection is ready
+[robinhood_blueprints_v2] Collection is ready
+[robinhood_launches_v1] Collection is ready
+[robinhood_metricsbuckets_v0] Collection is ready
+[robinhood_metricsevents_v0] Collection is ready
+[robinhood_tasks_v3] Collection is ready
+[robinhood_tokens_v2] Collection is ready
+[robinhood_walletgroups_v0] Collection is ready
+[robinhood_walletpositions_v0] Collection is ready
+[robinhood_wallets_v1] Collection is ready
+[apimcpconfiguration_v0] Collection is ready
+[appstate_v0] Collection is ready
+[xsettings_v0] Collection is ready
+[license_v1] Collection is ready
+[feecollection_v1] Collection is ready
+[lookuptable_v5] Collection is ready
+[presets_v4] Collection is ready
+[settings_v6] Collection is ready
+[robinhood_feecollection_v1] Collection is ready
+[robinhood_license_v0] Collection is ready
+[robinhood_presets_v2] Collection is ready
+[robinhood_settings_v4] Collection is ready
+Ready...
+WebSocket server listening on port 9500
+db sidecar started successfully
+[TriplitAdapter:xsettings_v0] Update received: 1 items
+[TriplitAdapter:settings_v6] Update received: 1 items
+[TriplitAdapter:robinhood_settings_v4] Update received: 1 items
+[sidecar:stream] pid=32124
+[sidecar:tasks] pid=40804
+[sidecar:api-mcp] pid=31676
+Starting sidecar: tasks
+PID: 40804
+Starting tasks sidecar on port 9502...
+Connecting to database...
+Starting sidecar: stream
+PID: 32124
+Starting stream sidecar on port 9501...
+Connecting to database
+Starting sidecar: api-mcp
+PID: 31676
+Starting api-mcp sidecar on port 9503...
+[apikeys_v0] Initializing repository
+[apikeys_v0] Initializing collection
+[apimcpconfiguration_v0] Initializing repository
+[apimcpconfiguration_v0] Initializing collection
+[appstate_v0] Initializing repository
+[appstate_v0] Initializing collection
+[journalentries_v0] Initializing repository
+[journalentries_v0] Initializing collection
+[xsettings_v0] Initializing repository
+[xsettings_v0] Initializing collection
+[license_v1] Initializing repository
+[license_v1] Initializing collection
+[blueprints_v4] Initializing repository
+[blueprints_v4] Initializing collection
+[feecollection_v1] Initializing repository
+[feecollection_v1] Initializing collection
+[launches_v2] Initializing repository
+[launches_v2] Initializing collection
+[lookuptable_v5] Initializing repository
+[lookuptable_v5] Initializing collection
+[presets_v4] Initializing repository
+[presets_v4] Initializing collection
+[settings_v6] Initializing repository
+[settings_v6] Initializing collection
+[tasks_v4] Initializing repository
+[tasks_v4] Initializing collection
+[tokens_v4] Initializing repository
+[tokens_v4] Initializing collection
+[wallets_v1] Initializing repository
+[wallets_v1] Initializing collection
+[walletgroups_v1] Initializing repository
+[walletgroups_v1] Initializing collection
+[walletpositions_v1] Initializing repository
+[walletpositions_v1] Initializing collection
+[vanities_v1] Initializing repository
+[vanities_v1] Initializing collection
+[metricsbuckets_v0] Initializing repository
+[metricsbuckets_v0] Initializing collection
+[metricsevents_v0] Initializing repository
+[metricsevents_v0] Initializing collection
+[robinhood_blueprints_v2] Initializing repository
+[robinhood_blueprints_v2] Initializing collection
+[robinhood_feecollection_v1] Initializing repository
+[robinhood_feecollection_v1] Initializing collection
+[robinhood_launches_v1] Initializing repository
+[robinhood_launches_v1] Initializing collection
+[robinhood_license_v0] Initializing repository
+[robinhood_license_v0] Initializing collection
+[robinhood_metricsbuckets_v0] Initializing repository
+[robinhood_metricsbuckets_v0] Initializing collection
+[robinhood_metricsevents_v0] Initializing repository
+[robinhood_metricsevents_v0] Initializing collection
+[robinhood_presets_v2] Initializing repository
+[robinhood_presets_v2] Initializing collection
+[robinhood_settings_v4] Initializing repository
+[robinhood_settings_v4] Initializing collection
+[robinhood_tasks_v3] Initializing repository
+[robinhood_tasks_v3] Initializing collection
+[robinhood_tokens_v2] Initializing repository
+[robinhood_tokens_v2] Initializing collection
+[robinhood_walletgroups_v0] Initializing repository
+[robinhood_walletgroups_v0] Initializing collection
+[robinhood_walletpositions_v0] Initializing repository
+[robinhood_walletpositions_v0] Initializing collection
+[robinhood_wallets_v1] Initializing repository
+[robinhood_wallets_v1] Initializing collection
+[apikeys_v0] Initializing repository
+[apikeys_v0] Initializing collection
+[apikeys_v0] Initializing repository
+[apikeys_v0] Initializing collection
+[apimcpconfiguration_v0] Initializing repository
+[apimcpconfiguration_v0] Initializing collection
+[apimcpconfiguration_v0] Initializing repository
+[apimcpconfiguration_v0] Initializing collection
+[appstate_v0] Initializing repository
+[appstate_v0] Initializing collection
+[appstate_v0] Initializing repository
+[appstate_v0] Initializing collection
+[journalentries_v0] Initializing repository
+[journalentries_v0] Initializing collection
+[journalentries_v0] Initializing repository
+[journalentries_v0] Initializing collection
+[xsettings_v0] Initializing repository
+[xsettings_v0] Initializing collection
+[xsettings_v0] Initializing repository
+[license_v1] Initializing repository
+[xsettings_v0] Initializing collection
+[license_v1] Initializing collection
+[license_v1] Initializing repository
+[blueprints_v4] Initializing repository
+[license_v1] Initializing collection
+[blueprints_v4] Initializing collection
+[blueprints_v4] Initializing repository
+[blueprints_v4] Initializing collection
+[feecollection_v1] Initializing repository
+[feecollection_v1] Initializing repository
+[feecollection_v1] Initializing collection
+[feecollection_v1] Initializing collection
+[launches_v2] Initializing repository
+[launches_v2] Initializing repository
+[launches_v2] Initializing collection
+[launches_v2] Initializing collection
+[lookuptable_v5] Initializing repository
+[lookuptable_v5] Initializing repository
+[lookuptable_v5] Initializing collection
+[lookuptable_v5] Initializing collection
+[presets_v4] Initializing repository
+[presets_v4] Initializing repository
+[presets_v4] Initializing collection
+[presets_v4] Initializing collection
+[settings_v6] Initializing repository
+[settings_v6] Initializing repository
+[settings_v6] Initializing collection
+[settings_v6] Initializing collection
+[tasks_v4] Initializing repository
+[tasks_v4] Initializing repository
+[tasks_v4] Initializing collection
+[tasks_v4] Initializing collection
+[tokens_v4] Initializing repository
+[tokens_v4] Initializing repository
+[tokens_v4] Initializing collection
+[tokens_v4] Initializing collection
+[wallets_v1] Initializing repository
+[wallets_v1] Initializing repository
+[wallets_v1] Initializing collection
+[wallets_v1] Initializing collection
+[walletgroups_v1] Initializing repository
+[walletgroups_v1] Initializing collection
+[walletgroups_v1] Initializing repository
+[walletpositions_v1] Initializing repository
+[walletgroups_v1] Initializing collection
+[walletpositions_v1] Initializing collection
+[walletpositions_v1] Initializing repository
+[walletpositions_v1] Initializing collection
+[vanities_v1] Initializing repository
+[vanities_v1] Initializing repository
+[vanities_v1] Initializing collection
+[vanities_v1] Initializing collection
+[metricsbuckets_v0] Initializing repository
+[metricsbuckets_v0] Initializing repository
+[metricsbuckets_v0] Initializing collection
+[metricsbuckets_v0] Initializing collection
+[metricsevents_v0] Initializing repository
+[metricsevents_v0] Initializing repository
+[metricsevents_v0] Initializing collection
+[metricsevents_v0] Initializing collection
+[robinhood_blueprints_v2] Initializing repository
+[robinhood_blueprints_v2] Initializing repository
+[robinhood_blueprints_v2] Initializing collection
+[robinhood_blueprints_v2] Initializing collection
+[robinhood_feecollection_v1] Initializing repository
+[robinhood_feecollection_v1] Initializing repository
+[robinhood_feecollection_v1] Initializing collection
+[robinhood_feecollection_v1] Initializing collection
+[robinhood_launches_v1] Initializing repository
+[robinhood_launches_v1] Initializing collection
+[robinhood_launches_v1] Initializing repository
+[robinhood_launches_v1] Initializing collection
+[robinhood_license_v0] Initializing repository
+[robinhood_license_v0] Initializing repository
+[robinhood_license_v0] Initializing collection
+[robinhood_license_v0] Initializing collection
+[TriplitAdapter:apikeys_v0] Initial fetch: 0 item(s)
+[robinhood_metricsbuckets_v0] Initializing repository
+[robinhood_metricsbuckets_v0] Initializing repository
+[robinhood_metricsbuckets_v0] Initializing collection
+[robinhood_metricsbuckets_v0] Initializing collection
+[robinhood_metricsevents_v0] Initializing repository
+[robinhood_metricsevents_v0] Initializing collection
+[robinhood_metricsevents_v0] Initializing repository
+[robinhood_presets_v2] Initializing repository
+[robinhood_metricsevents_v0] Initializing collection
+[robinhood_presets_v2] Initializing collection
+[robinhood_presets_v2] Initializing repository
+[TriplitAdapter:journalentries_v0] Initial fetch: 0 item(s)
+[robinhood_settings_v4] Initializing repository
+[robinhood_presets_v2] Initializing collection
+[robinhood_settings_v4] Initializing collection
+[TriplitAdapter:blueprints_v4] Initial fetch: 0 item(s)
+[robinhood_settings_v4] Initializing repository
+[robinhood_tasks_v3] Initializing repository
+[robinhood_settings_v4] Initializing collection
+[TriplitAdapter:launches_v2] Initial fetch: 0 item(s)
+[robinhood_tasks_v3] Initializing collection
+[robinhood_tasks_v3] Initializing repository
+[TriplitAdapter:tasks_v4] Initial fetch: 0 item(s)
+[robinhood_tokens_v2] Initializing repository
+[robinhood_tasks_v3] Initializing collection
+[TriplitAdapter:tokens_v4] Initial fetch: 0 item(s)
+[robinhood_tokens_v2] Initializing collection
+[robinhood_tokens_v2] Initializing repository
+[TriplitAdapter:wallets_v1] Initial fetch: 0 item(s)
+[robinhood_walletgroups_v0] Initializing repository
+[robinhood_tokens_v2] Initializing collection
+[TriplitAdapter:walletgroups_v1] Initial fetch: 0 item(s)
+[robinhood_walletgroups_v0] Initializing collection
+[robinhood_walletgroups_v0] Initializing repository
+[TriplitAdapter:walletpositions_v1] Initial fetch: 0 item(s)
+[robinhood_walletpositions_v0] Initializing repository
+[robinhood_walletgroups_v0] Initializing collection
+[TriplitAdapter:vanities_v1] Initial fetch: 0 item(s)
+[robinhood_walletpositions_v0] Initializing collection
+[robinhood_walletpositions_v0] Initializing repository
+[TriplitAdapter:metricsbuckets_v0] Initial fetch: 0 item(s)
+[robinhood_wallets_v1] Initializing repository
+[robinhood_walletpositions_v0] Initializing collection
+[TriplitAdapter:metricsevents_v0] Initial fetch: 0 item(s)
+[robinhood_wallets_v1] Initializing collection
+[robinhood_wallets_v1] Initializing repository
+[TriplitAdapter:robinhood_blueprints_v2] Initial fetch: 0 item(s)
+[robinhood_wallets_v1] Initializing collection
+[TriplitAdapter:robinhood_launches_v1] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_metricsbuckets_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_metricsevents_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_tasks_v3] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_tokens_v2] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_walletgroups_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_walletpositions_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_wallets_v1] Initial fetch: 0 item(s)
+[TriplitAdapter:apimcpconfiguration_v0] Initial fetch: 1 item(s)
+[TriplitAdapter:appstate_v0] Initial fetch: 1 item(s)
+[TriplitAdapter:xsettings_v0] Initial fetch: 1 item(s)
+[TriplitAdapter:license_v1] Initial fetch: 1 item(s)
+[TriplitAdapter:feecollection_v1] Initial fetch: 1 item(s)
+[TriplitAdapter:lookuptable_v5] Initial fetch: 1 item(s)
+[TriplitAdapter:presets_v4] Initial fetch: 1 item(s)
+[TriplitAdapter:settings_v6] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_feecollection_v1] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_license_v0] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_presets_v2] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_settings_v4] Initial fetch: 1 item(s)
+[TriplitAdapter:apikeys_v0] Update received: 0 items
+[TriplitAdapter:journalentries_v0] Update received: 0 items
+[TriplitAdapter:blueprints_v4] Update received: 0 items
+[TriplitAdapter:launches_v2] Update received: 0 items
+[TriplitAdapter:tasks_v4] Update received: 0 items
+[TriplitAdapter:tokens_v4] Update received: 0 items
+[TriplitAdapter:wallets_v1] Update received: 0 items
+[TriplitAdapter:walletgroups_v1] Update received: 0 items
+[TriplitAdapter:walletpositions_v1] Update received: 0 items
+[TriplitAdapter:vanities_v1] Update received: 0 items
+[TriplitAdapter:metricsbuckets_v0] Update received: 0 items
+[TriplitAdapter:metricsevents_v0] Update received: 0 items
+[TriplitAdapter:robinhood_blueprints_v2] Update received: 0 items
+[TriplitAdapter:robinhood_launches_v1] Update received: 0 items
+[TriplitAdapter:robinhood_metricsbuckets_v0] Update received: 0 items
+[TriplitAdapter:apikeys_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_metricsevents_v0] Update received: 0 items
+[TriplitAdapter:robinhood_tasks_v3] Update received: 0 items
+[TriplitAdapter:robinhood_tokens_v2] Update received: 0 items
+[TriplitAdapter:robinhood_walletgroups_v0] Update received: 0 items
+[TriplitAdapter:robinhood_walletpositions_v0] Update received: 0 items
+[TriplitAdapter:robinhood_wallets_v1] Update received: 0 items
+[TriplitAdapter:apimcpconfiguration_v0] Update received: 1 items
+[TriplitAdapter:appstate_v0] Update received: 1 items
+[TriplitAdapter:journalentries_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:xsettings_v0] Update received: 1 items
+[TriplitAdapter:blueprints_v4] Initial fetch: 0 item(s)
+[TriplitAdapter:license_v1] Update received: 1 items
+[TriplitAdapter:launches_v2] Initial fetch: 0 item(s)
+[TriplitAdapter:feecollection_v1] Update received: 1 items
+[TriplitAdapter:lookuptable_v5] Update received: 1 items
+[TriplitAdapter:presets_v4] Update received: 1 items
+[TriplitAdapter:settings_v6] Update received: 1 items
+[TriplitAdapter:robinhood_feecollection_v1] Update received: 1 items
+[TriplitAdapter:robinhood_license_v0] Update received: 1 items
+[TriplitAdapter:robinhood_presets_v2] Update received: 1 items
+[TriplitAdapter:robinhood_settings_v4] Update received: 1 items
+[TriplitAdapter:apimcpconfiguration_v0] Initial fetch: 1 item(s)
+[TriplitAdapter:appstate_v0] Initial fetch: 1 item(s)
+[TriplitAdapter:xsettings_v0] Initial fetch: 1 item(s)
+[TriplitAdapter:license_v1] Initial fetch: 1 item(s)
+[TriplitAdapter:feecollection_v1] Initial fetch: 1 item(s)
+[TriplitAdapter:lookuptable_v5] Initial fetch: 1 item(s)
+[TriplitAdapter:presets_v4] Initial fetch: 1 item(s)
+[TriplitAdapter:apikeys_v0] Update received: 0 items
+[TriplitAdapter:journalentries_v0] Update received: 0 items
+[TriplitAdapter:blueprints_v4] Update received: 0 items
+[TriplitAdapter:launches_v2] Update received: 0 items
+[TriplitAdapter:apimcpconfiguration_v0] Update received: 1 items
+[TriplitAdapter:appstate_v0] Update received: 1 items
+[TriplitAdapter:xsettings_v0] Update received: 1 items
+[TriplitAdapter:license_v1] Update received: 1 items
+[TriplitAdapter:feecollection_v1] Update received: 1 items
+[TriplitAdapter:lookuptable_v5] Update received: 1 items
+[TriplitAdapter:presets_v4] Update received: 1 items
+[apikeys_v0] Collection is ready
+[journalentries_v0] Collection is ready
+[blueprints_v4] Collection is ready
+[launches_v2] Collection is ready
+[tasks_v4] Collection is ready
+[tokens_v4] Collection is ready
+[wallets_v1] Collection is ready
+[walletgroups_v1] Collection is ready
+[walletpositions_v1] Collection is ready
+[vanities_v1] Collection is ready
+[metricsbuckets_v0] Collection is ready
+[metricsevents_v0] Collection is ready
+[robinhood_blueprints_v2] Collection is ready
+[robinhood_launches_v1] Collection is ready
+[robinhood_metricsbuckets_v0] Collection is ready
+[robinhood_metricsevents_v0] Collection is ready
+[robinhood_tasks_v3] Collection is ready
+[robinhood_tokens_v2] Collection is ready
+[robinhood_walletgroups_v0] Collection is ready
+[robinhood_walletpositions_v0] Collection is ready
+[robinhood_wallets_v1] Collection is ready
+[apimcpconfiguration_v0] Collection is ready
+[appstate_v0] Collection is ready
+[TriplitAdapter:tasks_v4] Initial fetch: 0 item(s)
+[xsettings_v0] Collection is ready
+[TriplitAdapter:tokens_v4] Initial fetch: 0 item(s)
+[license_v1] Collection is ready
+[TriplitAdapter:wallets_v1] Initial fetch: 0 item(s)
+[feecollection_v1] Collection is ready
+[TriplitAdapter:walletgroups_v1] Initial fetch: 0 item(s)
+[lookuptable_v5] Collection is ready
+[TriplitAdapter:walletpositions_v1] Initial fetch: 0 item(s)
+[presets_v4] Collection is ready
+[TriplitAdapter:vanities_v1] Initial fetch: 0 item(s)
+[settings_v6] Collection is ready
+[TriplitAdapter:metricsbuckets_v0] Initial fetch: 0 item(s)
+[robinhood_feecollection_v1] Collection is ready
+[TriplitAdapter:metricsevents_v0] Initial fetch: 0 item(s)
+[robinhood_license_v0] Collection is ready
+[TriplitAdapter:robinhood_blueprints_v2] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_launches_v1] Initial fetch: 0 item(s)
+[robinhood_presets_v2] Collection is ready
+[TriplitAdapter:robinhood_metricsbuckets_v0] Initial fetch: 0 item(s)
+[robinhood_settings_v4] Collection is ready
+[TriplitAdapter:robinhood_metricsevents_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_tasks_v3] Initial fetch: 0 item(s)
+Connected to database
+[TriplitAdapter:apikeys_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_tokens_v2] Initial fetch: 0 item(s)
+Connecting to stream sidecar...
+[TriplitAdapter:robinhood_walletgroups_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_walletpositions_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_wallets_v1] Initial fetch: 0 item(s)
+[TriplitAdapter:journalentries_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:blueprints_v4] Initial fetch: 0 item(s)
+[TriplitAdapter:settings_v6] Initial fetch: 1 item(s)
+[TriplitAdapter:launches_v2] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_feecollection_v1] Initial fetch: 1 item(s)
+[TriplitAdapter:tasks_v4] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_license_v0] Initial fetch: 1 item(s)
+[TriplitAdapter:tokens_v4] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_presets_v2] Initial fetch: 1 item(s)
+[TriplitAdapter:wallets_v1] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_settings_v4] Initial fetch: 1 item(s)
+[TriplitAdapter:walletgroups_v1] Initial fetch: 0 item(s)
+[TriplitAdapter:walletpositions_v1] Initial fetch: 0 item(s)
+[TriplitAdapter:vanities_v1] Initial fetch: 0 item(s)
+[TriplitAdapter:metricsbuckets_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:metricsevents_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_blueprints_v2] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_launches_v1] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_metricsbuckets_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_metricsevents_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_tasks_v3] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_tokens_v2] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_walletgroups_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_walletpositions_v0] Initial fetch: 0 item(s)
+[TriplitAdapter:robinhood_wallets_v1] Initial fetch: 0 item(s)
+[TriplitAdapter:tasks_v4] Update received: 0 items
+[TriplitAdapter:tokens_v4] Update received: 0 items
+[TriplitAdapter:wallets_v1] Update received: 0 items
+[TriplitAdapter:walletgroups_v1] Update received: 0 items
+[TriplitAdapter:walletpositions_v1] Update received: 0 items
+[TriplitAdapter:vanities_v1] Update received: 0 items
+[TriplitAdapter:metricsbuckets_v0] Update received: 0 items
+[TriplitAdapter:metricsevents_v0] Update received: 0 items
+[TriplitAdapter:robinhood_blueprints_v2] Update received: 0 items
+[TriplitAdapter:robinhood_launches_v1] Update received: 0 items
+[TriplitAdapter:apimcpconfiguration_v0] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_metricsbuckets_v0] Update received: 0 items
+[TriplitAdapter:robinhood_metricsevents_v0] Update received: 0 items
+[TriplitAdapter:appstate_v0] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_tasks_v3] Update received: 0 items
+[TriplitAdapter:xsettings_v0] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_tokens_v2] Update received: 0 items
+[TriplitAdapter:license_v1] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_walletgroups_v0] Update received: 0 items
+[TriplitAdapter:feecollection_v1] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_walletpositions_v0] Update received: 0 items
+[TriplitAdapter:lookuptable_v5] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_wallets_v1] Update received: 0 items
+[TriplitAdapter:xsettings_v0] Update received: 1 items
+[TriplitAdapter:presets_v4] Initial fetch: 1 item(s)
+[TriplitAdapter:settings_v6] Update received: 1 items
+[TriplitAdapter:settings_v6] Update received: 1 items
+[TriplitAdapter:settings_v6] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_feecollection_v1] Update received: 1 items
+[TriplitAdapter:robinhood_settings_v4] Update received: 1 items
+[TriplitAdapter:robinhood_license_v0] Update received: 1 items
+[TriplitAdapter:robinhood_feecollection_v1] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_presets_v2] Update received: 1 items
+[TriplitAdapter:robinhood_license_v0] Initial fetch: 1 item(s)
+[TriplitAdapter:robinhood_settings_v4] Update received: 1 items
+[TriplitAdapter:robinhood_presets_v2] Initial fetch: 1 item(s)
+[bridge:stream] Disconnected
+[TriplitAdapter:robinhood_settings_v4] Initial fetch: 1 item(s)
+[bridge:stream] Reconnecting in 1186ms (attempt 1)
+[apikeys_v0] Collection is ready
+[journalentries_v0] Collection is ready
+[blueprints_v4] Collection is ready
+[launches_v2] Collection is ready
+[apimcpconfiguration_v0] Collection is ready
+[TriplitAdapter:apikeys_v0] Update received: 0 items
+[TriplitAdapter:journalentries_v0] Update received: 0 items
+[TriplitAdapter:blueprints_v4] Update received: 0 items
+[TriplitAdapter:launches_v2] Update received: 0 items
+[TriplitAdapter:tasks_v4] Update received: 0 items
+[TriplitAdapter:tokens_v4] Update received: 0 items
+[TriplitAdapter:wallets_v1] Update received: 0 items
+[appstate_v0] Collection is ready
+[TriplitAdapter:walletgroups_v1] Update received: 0 items
+[xsettings_v0] Collection is ready
+[TriplitAdapter:walletpositions_v1] Update received: 0 items
+[TriplitAdapter:vanities_v1] Update received: 0 items
+[license_v1] Collection is ready
+[TriplitAdapter:metricsbuckets_v0] Update received: 0 items
+[TriplitAdapter:metricsevents_v0] Update received: 0 items
+[feecollection_v1] Collection is ready
+[TriplitAdapter:robinhood_blueprints_v2] Update received: 0 items
+[lookuptable_v5] Collection is ready
+[TriplitAdapter:robinhood_launches_v1] Update received: 0 items
+[presets_v4] Collection is ready
+[TriplitAdapter:robinhood_metricsbuckets_v0] Update received: 0 items
+[TriplitAdapter:robinhood_metricsevents_v0] Update received: 0 items
+[tasks_v4] Collection is ready
+[TriplitAdapter:robinhood_tasks_v3] Update received: 0 items
+[tokens_v4] Collection is ready
+[TriplitAdapter:robinhood_tokens_v2] Update received: 0 items
+[wallets_v1] Collection is ready
+[TriplitAdapter:robinhood_walletgroups_v0] Update received: 0 items
+[walletgroups_v1] Collection is ready
+[TriplitAdapter:robinhood_walletpositions_v0] Update received: 0 items
+[walletpositions_v1] Collection is ready
+[TriplitAdapter:robinhood_wallets_v1] Update received: 0 items
+[vanities_v1] Collection is ready
+[TriplitAdapter:apimcpconfiguration_v0] Update received: 1 items
+[metricsbuckets_v0] Collection is ready
+[TriplitAdapter:appstate_v0] Update received: 1 items
+[metricsevents_v0] Collection is ready
+[TriplitAdapter:xsettings_v0] Update received: 1 items
+[robinhood_blueprints_v2] Collection is ready
+[TriplitAdapter:license_v1] Update received: 1 items
+[robinhood_launches_v1] Collection is ready
+[TriplitAdapter:feecollection_v1] Update received: 1 items
+[robinhood_metricsbuckets_v0] Collection is ready
+[TriplitAdapter:lookuptable_v5] Update received: 1 items
+[robinhood_metricsevents_v0] Collection is ready
+[TriplitAdapter:presets_v4] Update received: 1 items
+[robinhood_tasks_v3] Collection is ready
+[TriplitAdapter:settings_v6] Update received: 1 items
+[robinhood_tokens_v2] Collection is ready
+[TriplitAdapter:robinhood_feecollection_v1] Update received: 1 items
+[robinhood_walletgroups_v0] Collection is ready
+[TriplitAdapter:robinhood_license_v0] Update received: 1 items
+[robinhood_walletpositions_v0] Collection is ready
+[TriplitAdapter:robinhood_presets_v2] Update received: 1 items
+[robinhood_wallets_v1] Collection is ready
+[TriplitAdapter:robinhood_settings_v4] Update received: 1 items
+[settings_v6] Collection is ready
+[robinhood_feecollection_v1] Collection is ready
+[robinhood_license_v0] Collection is ready
+[robinhood_presets_v2] Collection is ready
+[robinhood_settings_v4] Collection is ready
+[apikeys_v0] Collection is ready
+[journalentries_v0] Collection is ready
+[blueprints_v4] Collection is ready
+[launches_v2] Collection is ready
+[TriplitAdapter:xsettings_v0] Update received: 1 items
+[tasks_v4] Collection is ready
+[tokens_v4] Collection is ready
+[wallets_v1] Collection is ready
+[walletgroups_v1] Collection is ready
+[walletpositions_v1] Collection is ready
+[vanities_v1] Collection is ready
+[metricsbuckets_v0] Collection is ready
+[metricsevents_v0] Collection is ready
+[robinhood_blueprints_v2] Collection is ready
+[robinhood_launches_v1] Collection is ready
+[robinhood_metricsbuckets_v0] Collection is ready
+[robinhood_metricsevents_v0] Collection is ready
+[robinhood_tasks_v3] Collection is ready
+[robinhood_tokens_v2] Collection is ready
+[robinhood_walletgroups_v0] Collection is ready
+[TriplitAdapter:settings_v6] Update received: 1 items
+[robinhood_walletpositions_v0] Collection is ready
+[robinhood_wallets_v1] Collection is ready
+[TriplitAdapter:robinhood_settings_v4] Update received: 1 items
+[apimcpconfiguration_v0] Collection is ready
+[bridge:tasks] Disconnected
+[bridge:tasks] Reconnecting in 1015ms (attempt 1)
+[appstate_v0] Collection is ready
+[xsettings_v0] Collection is ready
+[license_v1] Collection is ready
+[feecollection_v1] Collection is ready
+[lookuptable_v5] Collection is ready
+[presets_v4] Collection is ready
+[settings_v6] Collection is ready
+[robinhood_feecollection_v1] Collection is ready
+[robinhood_license_v0] Collection is ready
+[robinhood_presets_v2] Collection is ready
+[robinhood_settings_v4] Collection is ready
+Connected to database
+Ready for streaming
+WebSocket server listening on port 9501
+stream sidecar started successfully
+[TriplitAdapter:xsettings_v0] Update received: 1 items
+[TriplitAdapter:settings_v6] Update received: 1 items
+[TriplitAdapter:robinhood_settings_v4] Update received: 1 items
+New client connected via websocket
+New client connected via websocket
+[bridge:tasks] Disconnected
+[bridge:tasks] Reconnecting in 1211ms (attempt 2)
+New client connected via websocket
+[bridge:stream] WebSocket open, waiting for READY signal...
+[bridge:stream] READY signal received: stream
+Connected to stream sidecar
+Tasks sidecar ready
+WebSocket server listening on port 9502
+tasks sidecar started successfully
+New client connected via websocket
+New client connected via websocket
+[bridge:tasks] WebSocket open, waiting for READY signal...
+[bridge:tasks] READY signal received: tasks
+API server listening on http://127.0.0.1:9505
+WebSocket server listening on port 9503
+api-mcp sidecar started successfully
+[tauri] get_bridge_token
+[tauri:args] {}
+[tauri] get_bridge_token
+[tauri:args] {}
+[tauri] get_bridge_token
+[tauri:args] {}
+New client connected via websocket
+New client connected via websocket
+New client connected via websocket
+[tauri] get_triplit_jwt_secret
+[tauri:args] {}
+Client disconnected
+Client disconnected
+Client disconnected
+[tauri] webview_http_get
+[tauri:args] {"bootstrapUrl":"https://gmgn.ai/?chain=sol","targetUrl":"https://gmgn.ai/api/v1/dex_trades_polling?chain=sol&window=1h&from_app=gmgn&os=web&app_lang=en-US"}
+[tauri] detect_browser_extensions
+[tauri:args] {}
+[tauri] webview_http_get
+[tauri:args] {"bootstrapUrl":"https://gmgn.ai/?chain=sol","targetUrl":"https://gmgn.ai/api/v1/dex_trades_polling?chain=sol&window=1h&from_app=gmgn&os=web&app_lang=en-US"}
+[tauri] detect_browser_extensions
+[tauri:args] {}
+[tauri] detect_browser_extensions
+[tauri:args] {}
+[tauri] detect_browser_extensions
+[tauri:args] {}
+[tauri] detect_browser_extensions
+[tauri:args] {}
+[tauri] detect_browser_extensions
+[tauri:args] {}
+[tauri] detect_browser_extensions
+[tauri:args] {}
+[tauri] detect_browser_extensions
+[tauri:args] {}
+[tauri] detect_browser_extensions
+[tauri:args] {}
+[tauri] detect_browser_extensions
+[tauri:args] {}
+[tauri] detect_browser_extensions
+[tauri:args] {}
+[tauri] detect_browser_extensions
+[tauri:args] {}

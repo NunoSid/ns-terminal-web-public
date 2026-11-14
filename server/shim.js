@@ -334,6 +334,7 @@
         if (p) {
           u.protocol = location.protocol === "https:" ? "wss:" : "ws:";
           u.host = location.host;
+          u.port = "";
           u.pathname = p;
           target = u.toString();
         }
