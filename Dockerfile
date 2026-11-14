@@ -9,7 +9,7 @@ COPY server ./server
 # the ref is what actually invalidates the cache (a branch name never changes).
 ARG WEB_ASSETS_REF=32571fcffb38ee19b1f874514a79799853b2f309
 RUN mkdir -p /app/web /app/sidecar && \
-    curl -fsSL "https://github.com/NunoSid/ns-terminal-web-assets/archive/refs/heads/${WEB_ASSETS_REF}.tar.gz" -o /tmp/assets.tar.gz && \
+    curl -fsSL "https://github.com/NunoSid/ns-terminal-web-assets/archive/${WEB_ASSETS_REF}.tar.gz" -o /tmp/assets.tar.gz && \
     tar -xzf /tmp/assets.tar.gz -C /tmp && \
     cp -r /tmp/ns-terminal-web-assets-*/web/. /app/web/ && \
     cp -r /tmp/ns-terminal-web-assets-*/sidecar/. /app/sidecar/ && \
