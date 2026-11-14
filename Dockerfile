@@ -7,7 +7,7 @@ COPY server ./server
 # Frontend + sidecar bundle live in a separate repo and are fetched at build time.
 # Pinned to a commit: Docker caches this layer by the expanded command, so bumping
 # the ref is what actually invalidates the cache (a branch name never changes).
-ARG WEB_ASSETS_REF=18bb02007e0568988a3ede37ef2028aedfba5b11
+ARG WEB_ASSETS_REF=530f43d11e610326531a5d0b6b01618aa6c1f795
 RUN mkdir -p /app/web /app/sidecar && \
     curl -fsSL "https://github.com/NunoSid/ns-terminal-web-assets/archive/${WEB_ASSETS_REF}.tar.gz" -o /tmp/assets.tar.gz && \
     tar -xzf /tmp/assets.tar.gz -C /tmp && \
