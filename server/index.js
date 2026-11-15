@@ -152,14 +152,29 @@ async function tauriCommand(cmd, args, req) {
       return null;
     case "webview_http_get":
     case "webview_http_post": {
-      const url = args.url || args.request?.url;
-      if (!url) throw new Error("missing url");
+      const target = args.targetUrl || args.url || args.request?.url;
+      if (!target) throw new Error("missing url");
       const method = cmd === "webview_http_post" ? "POST" : "GET";
-      const res = await fetch(url, {
-        method,
-        headers: args.headers || {},
-        body: args.body ? JSON.stringify(args.body) : undefined,
-      });
+      const headers = {
+        "user-agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        accept: "application/json, text/plain, */*",
+        "accept-language": "en-US,en;q=0.9",
+        ...(args.contentType ? { "content-type": args.contentType } : {}),
+      };
+      if (args.bootstrapUrl) {
+        try {
+          const b = new URL(args.bootstrapUrl);
+          headers.referer = args.bootstrapUrl;
+          headers.origin = b.origin;
+        } catch {}
+      }
+      let payload;
+      if (cmd === "webview_http_post" && args.body != null) {
+        payload = typeof args.body === "string" ? args.body : JSON.stringify(args.body);
+        if (!headers["content-type"]) headers["content-type"] = "application/json";
+      }
+      const res = await fetch(target, { method, headers, body: payload });
       return { status: res.status, body: await res.text(), headers: Object.fromEntries(res.headers) };
     }
     case "webview_http_deliver_response":
