@@ -392,9 +392,12 @@ async function fsCommand(req) {
 }
 
 const PUBLIC_PREFIXES = ["/_app/immutable/", "/frogs/", "/solana/", "/icons/", "/logos/", "/sounds/", "/robinhood/"];
+const ASSET_EXT = /\.(png|jpe?g|svg|webp|gif|mp3|wav|ico|woff2?|ttf|css|js|map|txt|json)$/i;
 function isPublicAsset(pathname) {
   if (pathname === "/favicon.png" || pathname === "/robots.txt") return true;
-  return PUBLIC_PREFIXES.some((p) => pathname.startsWith(p));
+  if (pathname.startsWith("/_app/immutable/")) return true;
+  // Only real files under the asset roots. "/solana/tokens" is an app route, not an asset.
+  return ASSET_EXT.test(pathname) && PUBLIC_PREFIXES.some((p) => pathname.startsWith(p));
 }
 
 /* ---------------- login page ---------------- */
